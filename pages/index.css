@@ -44,3 +44,5 @@
 @import url("../blocks/form/__about/form__about.css");
 @import url("../blocks/form/__button/form__button.css");
 @import url("../blocks/form/__text/form__text.css");
+/* Проверочка */
+@import url("../blocks/elements/__icon/_active/elements__icon_active.css");

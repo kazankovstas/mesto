@@ -1,0 +1,9 @@
+.elements__icon_active {
+  width: 22px;
+  height: 19px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  background-image: url("../../../../images/icons/like-icon_black.svg");
+}

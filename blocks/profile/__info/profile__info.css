@@ -1,4 +1,6 @@
 .profile__info {
+  max-width: max-content;
   /* display: flex;
   flex-wrap: wrap; */
+  position: relative;
 }

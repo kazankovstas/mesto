@@ -5,6 +5,7 @@
   margin: 0;
   opacity: 1;
   transition: 0.3s;
+  font-size: 0;
 }
 
 .link:hover {
