@@ -1,17 +1,30 @@
-# Проект: Место
+# Проект: Mesto
 
-### Обзор
+---
 
-* Figma
-* Картинки
+### Описание
 
-**Figma**
+Данный проект представляет из себя интерактивную страницу, где можно добавлять фотографии, удалить их, ставить им лайки.
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
+---
 
-**Картинки**
+### Технологии
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+- HTML
+- CSS
+- JavaScript
+- БЭМ
+- Flex Layout
+- Grid Layout
+- Адаптивная вёрстка
+- Анимации и трансформации
 
-Удачи!
+![HTML](https://img.shields.io/badge/HTML-black?style=for-the-badge&logo=html5)![CSS](https://img.shields.io/badge/CSS-black?style=for-the-badge&logo=css3&logoColor=blue)![JS](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)
+
+Сайт выполнен с применением таких технологий как HTML и CSS, корректно отображается на экранах популярных форматов. При построении сеток использовались такие технологии как Flex Layout и Grid Layout. Файловая структура проекта оформлена по БЭМ Nested.
+
+---
+
+**Mesto**
+
+- [Ссылка на проект](https://kazankovstas.github.io/russian-travel/)

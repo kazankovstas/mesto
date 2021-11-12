@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <title>Mesto</title>
+  </head>
+  <body class="body">
+    <div class="page">
+      <header class="header">
+        <a href="#" class="link">
+          <img class="header__logo" src="images/logo.svg" alt="Логотип"
+        /></a>
+      </header>
+      <main class="content">
+        <section class="profile">
+          <img class="profile__avatar" src="images/avatar.jpg" alt="Аватар" />
+          <div class="profile-container">
+            <div class="name-container">
+              <p class="profile__name">Станислав Казанков</p>
+              <button class="edit-button"></button>
+            </div>
+            <p class="profile__text">Студент Yandex Practicum</p>
+          </div>
+          <button class="add-button"></button>
+        </section>
+        <section class="elements">
+          <ul class="elements__list">
+            <li class="elements__item">
+              <img
+                class="elements__image"
+                src="images/jordanDesert.jpg"
+                alt="Пустыня Иордании"
+              />
+              <p class="elements__title">Пустыня Иордании</p>
+              <img
+                class="elements__icon"
+                src="images/icons/like-icon.svg"
+                alt="Нравится"
+              />
+            </li>
+            <li class="elements__item">
+              <img
+                class="elements__image"
+                src="images/JamesBondIsland.jpg"
+                alt="Остров Джеймса Бонда"
+              />
+              <p class="elements__title">Остров Джеймса Бонда</p>
+              <img
+                class="elements__icon"
+                src="images/icons/like-icon.svg"
+                alt="Нравится"
+              />
+            </li>
+            <li class="elements__item">
+              <img
+                class="elements__image"
+                src="images/iguazuFalls.jpg"
+                alt="Водопады Игуасу"
+              />
+              <p class="elements__title">Водопады Игуасу</p>
+              <img
+                class="elements__icon"
+                src="images/icons/like-icon.svg"
+                alt="Нравится"
+              />
+            </li>
+            <li class="elements__item">
+              <img
+                class="elements__image"
+                src="images/tianjiMountains.jpg"
+                alt="Горы Тяньцзи"
+              />
+              <p class="elements__title">Горы Тяньцзи</p>
+              <img
+                class="elements__icon"
+                src="images/icons/like-icon.svg"
+                alt="Нравится"
+              />
+            </li>
+            <li class="elements__item">
+              <img
+                class="elements__image"
+                src="images/glacialLakeMoraine.jpg"
+                alt="Ледниковое озеро Морейн"
+              />
+              <p class="elements__title">Ледниковое озеро Морейн</p>
+              <img
+                class="elements__icon"
+                src="images/icons/like-icon.svg"
+                alt="Нравится"
+              />
+            </li>
+            <li class="elements__item">
+              <img
+                class="elements__image"
+                src="images/Trolltunga.jpg"
+                alt="Язык Тролля"
+              />
+              <p class="elements__title">Язык Тролля</p>
+              <img
+                class="elements__icon"
+                src="images/icons/like-icon.svg"
+                alt="Нравится"
+              />
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
+      </footer>
+    </div>
+    <div class="popup">
+      <div class="popup__container">
+        <img
+          class="popup__close"
+          src="images/icons/close-icon.png"
+          alt="иконка"
+        />
+        <p class="form__text">Редактировать профиль</p>
+        <form class="form" action="" method="post">
+          <input
+            class="form__name"
+            type="text"
+            name="user-name"
+            placeholder="Имя"
+          />
+          <input
+            class="form__about"
+            type="text"
+            name="user-info"
+            placeholder="О себе"
+          />
+          <input class="form__button" type="submit" value="Сохранить" />
+        </form>
+      </div>
+    </div>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

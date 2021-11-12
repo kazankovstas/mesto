@@ -1,0 +1,19 @@
+.edit-button {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  margin-left: 18px;
+  border: 1px solid white;
+  background: no-repeat center url("../../images/edit-logo.svg");
+}
+
+.edit-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 620px) {
+  .edit-button {
+    margin-left: 10px;
+  }
+}

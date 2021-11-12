@@ -1,0 +1,22 @@
+.form__about {
+  width: 358px;
+  height: 27px;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.21;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 620px) {
+  .form__about {
+    width: 238px;
+  }
+}
