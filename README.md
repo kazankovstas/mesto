@@ -27,4 +27,4 @@
 
 **Mesto**
 
-- [Ссылка на проект](https://kazankovstas.github.io/russian-travel/)
+- [Ссылка на проект](https://kazankovstas.github.io/mesto/)
