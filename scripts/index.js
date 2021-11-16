@@ -1,6 +1,7 @@
 const aboutLink = document.querySelector(".edit-button");
 const popup = document.querySelector(".popup");
 const popupCloseButton = document.querySelector(".popup__close");
+const saveButton = document.querySelector(".form__button");
 
 function open() {
   popup.classList.add("popup_opened");
@@ -8,34 +9,26 @@ function open() {
 
 function close() {
   popup.classList.remove("popup_opened");
+  saveButton.classList.remove("popup_opened");
 }
 
 aboutLink.addEventListener("click", open);
 popupCloseButton.addEventListener("click", close);
+saveButton.addEventListener("click", close);
 
-// // Находим форму в DOM
-// let formElement = // Воспользуйтесь методом querySelector()
-// // Находим поля формы в DOM
-// let nameInput = // Воспользуйтесь инструментом .querySelector()
-// let jobInput = // Воспользуйтесь инструментом .querySelector()
+let profileName = document.querySelector(".profile__name");
+let profileText = document.querySelector(".profile__text");
+let formElement = document.querySelector(".form");
+let nameInput = document.querySelector(".form__name");
+let aboutInput = document.querySelector(".form__about");
 
-// // Обработчик «отправки» формы, хотя пока
-// // она никуда отправляться не будет
-// function formSubmitHandler (evt) {
-//     evt.preventDefault(); // Эта строчка отменяет стандартную отправку формы.
-//                                                 // Так мы можем определить свою логику отправки.
-//                                                 // О том, как это делать, расскажем позже.
+nameInput.value = profileName.textContent;
+aboutInput.value = profileText.textContent;
 
-//     // Получите значение полей jobInput и nameInput из свойства value
+function formSubmitHandler(evt) {
+  evt.preventDefault();
+  (profileName.textContent = nameInput.value),
+    (profileText.textContent = aboutInput.value);
+}
 
-//     // Выберите элементы, куда должны быть вставлены значения полей
-
-//     // Вставьте новые значения с помощью textContent
-// }
-
-// // Прикрепляем обработчик к форме:
-// // он будет следить за событием “submit” - «отправка»
-// formElement.addEventListener('submit', formSubmitHandler);
-
-// let formElement = document.querySelector('.form__button');
-// let nameInput = document.querySelector('.form__input');
+formElement.addEventListener("submit", formSubmitHandler);

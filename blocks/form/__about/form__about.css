@@ -1,11 +1,11 @@
 .form__about {
   width: 358px;
   height: 27px;
-  padding: 0;
+  padding: 0 0 13px 0;
   box-sizing: border-box;
+  outline: none;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  outline: none;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.21;
@@ -13,6 +13,11 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.form__about:focus {
+  border: 2px solid rgb(7, 118, 209);
+  border-radius: 2px;
 }
 
 @media screen and (max-width: 620px) {

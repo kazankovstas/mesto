@@ -4,6 +4,8 @@
   position: absolute;
   top: -40px;
   right: -40px;
+  background: url(../../../images/icons/close-icon.svg);
+  background-size: cover;
   cursor: pointer;
   transition: 0.3s;
 }

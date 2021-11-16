@@ -9,8 +9,9 @@
 @import url("../blocks/header/__logo/header__logo.css");
 /* profile */
 @import url("../blocks/profile/profile.css");
-@import url("../blocks/profile/__avatar/profile__avatar.css");
+@import url("../blocks/profile/__image/profile__image.css");
 @import url("../blocks/profile/__info/profile__info.css");
+@import url("../blocks/profile/__edit/profile__edit.css");
 @import url("../blocks/profile/__name/profile__name.css");
 @import url("../blocks/profile/__text/profile__text.css");
 /* add-button */
@@ -30,6 +31,7 @@
 @import url("../blocks/elements/__image/elements__image.css");
 @import url("../blocks/elements/__title/elements__title.css");
 @import url("../blocks/elements/__icon/elements__icon.css");
+@import url("../blocks/elements/__icon/_active/elements__icon_active.css");
 /* footer */
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__copyright/footer__copyrigh.css");
@@ -44,5 +46,3 @@
 @import url("../blocks/form/__about/form__about.css");
 @import url("../blocks/form/__button/form__button.css");
 @import url("../blocks/form/__text/form__text.css");
-/* Проверочка */
-@import url("../blocks/elements/__icon/_active/elements__icon_active.css");
