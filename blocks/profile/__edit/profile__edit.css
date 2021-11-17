@@ -1,3 +1,10 @@
 .profile__edit {
   display: flex;
+  margin: 0 0 16px 0;
+}
+
+@media screen and (max-width: 620px) {
+  .profile__edit {
+    margin: 22.25px 0 14px 28px;
+  }
 }

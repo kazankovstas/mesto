@@ -9,7 +9,6 @@ function openPopup() {
 
 function closePopup() {
   popup.classList.remove("popup_opened");
-  saveButton.classList.remove("popup_opened");
 }
 
 aboutLink.addEventListener("click", openPopup);

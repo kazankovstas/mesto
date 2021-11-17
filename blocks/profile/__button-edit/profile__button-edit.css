@@ -3,10 +3,10 @@
   height: 24px;
   padding: 0;
   margin-left: 18px;
-  margin-bottom: 16px;
   align-self: center;
   border: 1px solid white;
   background: no-repeat center url("../../../images/icons/btn-edit.svg");
+  box-sizing: border-box;
 }
 
 .profile__button-edit:hover {
@@ -19,11 +19,6 @@
     width: 18px;
     height: 18px;
     margin-left: 10px;
-  }
-}
-
-@media screen and (max-width: 620px) {
-  .profile__button-edit {
-    margin: 0 0 0 10px;
+    background: no-repeat center url("../../../images/icons/btn-edit_s.svg");
   }
 }
