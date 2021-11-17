@@ -1,26 +1,26 @@
-const aboutLink = document.querySelector(".edit-button");
+const aboutLink = document.querySelector(".profile__button-edit");
 const popup = document.querySelector(".popup");
 const popupCloseButton = document.querySelector(".popup__close");
-const saveButton = document.querySelector(".form__button");
+const saveButton = document.querySelector(".form__button-save");
 
-function open() {
+function openPopup() {
   popup.classList.add("popup_opened");
 }
 
-function close() {
+function closePopup() {
   popup.classList.remove("popup_opened");
   saveButton.classList.remove("popup_opened");
 }
 
-aboutLink.addEventListener("click", open);
-popupCloseButton.addEventListener("click", close);
-saveButton.addEventListener("click", close);
+aboutLink.addEventListener("click", openPopup);
+popupCloseButton.addEventListener("click", closePopup);
+saveButton.addEventListener("click", closePopup);
 
-let profileName = document.querySelector(".profile__name");
-let profileText = document.querySelector(".profile__text");
-let formElement = document.querySelector(".form");
-let nameInput = document.querySelector(".form__name");
-let aboutInput = document.querySelector(".form__about");
+const profileName = document.querySelector(".profile__name");
+const profileText = document.querySelector(".profile__text");
+const formElement = document.querySelector(".form");
+const nameInput = document.querySelector(".form__name");
+const aboutInput = document.querySelector(".form__about");
 
 nameInput.value = profileName.textContent;
 aboutInput.value = profileText.textContent;
