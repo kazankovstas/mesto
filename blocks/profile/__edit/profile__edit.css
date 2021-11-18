@@ -1,10 +1,18 @@
 .profile__edit {
-  display: flex;
-  margin: 0 0 16px 0;
+  margin: 0 0 9px 0;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 920px) {
+  .profile__edit {
+    column-gap: 10px;
+  }
 }
 
 @media screen and (max-width: 620px) {
   .profile__edit {
-    margin: 22.25px 0 14px 28px;
+    margin: 26px 0 8px 28px;
   }
 }
