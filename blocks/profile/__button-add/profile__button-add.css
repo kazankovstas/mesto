@@ -5,6 +5,7 @@
   margin-left: auto;
   border: 1px solid white;
   background: no-repeat center url("../../../images/icons/btn-add.svg");
+  transition: 0.4s;
 }
 
 .profile__button-add:hover {
@@ -20,8 +21,8 @@
 
 @media screen and (max-width: 620px) {
   .profile__button-add {
-    background: no-repeat center url("../../../images/icons/btn-add_s.svg");
     width: 282px;
     margin: 36px auto 0;
+    background-size: 16px;
   }
 }

@@ -19,8 +19,8 @@
           <img class="profile__image" src="images/avatar.jpg" alt="Аватар" />
           <div class="profile__info">
             <div class="profile__edit">
-              <p class="profile__name">Жак-Ив Кусто</p>
-              <button class="profile__button-edit"></button>
+              <h2 class="profile__name">Жак-Ив Кусто</h2>
+              <button class="profile__button-edit" type="button"></button>
             </div>
             <p class="profile__text">Исследователь океана</p>
           </div>
@@ -35,7 +35,7 @@
                 alt="Пустыня Иордании"
               />
               <p class="elements__title">Пустыня Иордании</p>
-              <div class="elements__icon"></div>
+              <button class="elements__icon" type="button"></button>
             </li>
             <li class="elements__item">
               <img
@@ -44,7 +44,7 @@
                 alt="Остров Джеймса Бонда"
               />
               <p class="elements__title">Остров Джеймса Бонда</p>
-              <div class="elements__icon"></div>
+              <button class="elements__icon" type="button"></button>
             </li>
             <li class="elements__item">
               <img
@@ -53,7 +53,7 @@
                 alt="Водопады Игуасу"
               />
               <p class="elements__title">Водопады Игуасу</p>
-              <div class="elements__icon"></div>
+              <button class="elements__icon" type="button"></button>
             </li>
             <li class="elements__item">
               <img
@@ -62,7 +62,7 @@
                 alt="Горы Тяньцзи"
               />
               <p class="elements__title">Горы Тяньцзи</p>
-              <div class="elements__icon"></div>
+              <button class="elements__icon" type="button"></button>
             </li>
             <li class="elements__item">
               <img
@@ -71,7 +71,7 @@
                 alt="Ледниковое озеро Морейн"
               />
               <p class="elements__title">Ледниковое озеро Морейн</p>
-              <div class="elements__icon"></div>
+              <button class="elements__icon" type="button"></button>
             </li>
             <li class="elements__item">
               <img
@@ -80,7 +80,7 @@
                 alt="Язык Тролля"
               />
               <p class="elements__title">Язык Тролля</p>
-              <div class="elements__icon"></div>
+              <button class="elements__icon" type="button"></button>
             </li>
           </ul>
         </section>
@@ -91,9 +91,9 @@
     </div>
     <div class="popup">
       <div class="popup__container">
-        <div class="popup__close"></div>
-        <p class="popup__edit">Редактировать профиль</p>
-        <form class="form" method="post">
+        <button class="popup__close" type="button"></button>
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <form class="form" name="form__edit-profile" method="post">
           <input
             class="form__name"
             type="text"
@@ -106,7 +106,9 @@
             name="user-info"
             placeholder="О себе"
           />
-          <input class="form__button-save" type="submit" value="Сохранить" />
+          <button class="form__button-save" type="submit" value="Сохранить">
+            Сохранить
+          </button>
         </form>
       </div>
     </div>

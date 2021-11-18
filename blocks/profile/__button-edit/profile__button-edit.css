@@ -7,6 +7,7 @@
   border: 1px solid white;
   background: no-repeat center url("../../../images/icons/btn-edit.svg");
   box-sizing: border-box;
+  transition: 0.4s;
 }
 
 .profile__button-edit:hover {
@@ -19,6 +20,6 @@
     width: 18px;
     height: 18px;
     margin-left: 10px;
-    background: no-repeat center url("../../../images/icons/btn-edit_s.svg");
+    background-size: 7.5px;
   }
 }
