@@ -5,8 +5,8 @@ const saveButton = document.querySelector(".form__button-save");
 const profileName = document.querySelector(".profile__name");
 const profileText = document.querySelector(".profile__text");
 const formElement = document.querySelector(".form");
-const nameInput = document.querySelector(".form__name");
-const aboutInput = document.querySelector(".form__about");
+const nameInput = document.querySelector("input[name='user-name']");
+const aboutInput = document.querySelector("input[name='user-info']");
 
 function openPopup() {
   popup.classList.add("popup_opened");

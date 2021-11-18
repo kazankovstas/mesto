@@ -1,7 +1,8 @@
-.form__about {
+.form__input {
   width: 358px;
   height: 27px;
   padding: 0 0 13px 0;
+  margin-bottom: 30px;
   box-sizing: border-box;
   outline: none;
   border: none;
@@ -15,13 +16,17 @@
   overflow: hidden;
 }
 
-.form__about:focus {
+.form__input:last-of-type {
+  margin-bottom: 0;
+}
+
+.form__input:focus {
   border: 2px solid rgb(7, 118, 209);
   border-radius: 2px;
 }
 
 @media screen and (max-width: 620px) {
-  .form__about {
+  .form__input {
     width: 238px;
   }
 }
