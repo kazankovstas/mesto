@@ -1,12 +1,4 @@
 .profile__info {
   max-width: max-content;
-  /* display: flex;
-  flex-wrap: wrap; */
   position: relative;
-  /* display: grid;
-  grid-template-columns: repeat(2, max-content);
-  grid-template-rows: repeat(2, max-content); */
-  gap: 16px 18px;
-  border: 1px solid red;
-  align-items: baseline;
 }
