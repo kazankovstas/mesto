@@ -27,69 +27,14 @@
           <button class="profile__button-add" type="button"></button>
         </section>
         <section class="elements">
-          <ul class="elements__list">
-            <li class="elements__item">
-              <img
-                class="elements__image"
-                src="images/jordanDesert.jpg"
-                alt="Пустыня Иордании"
-              />
-              <h2 class="elements__title">Пустыня Иордании</h2>
-              <button class="elements__btn-like" type="button"></button>
-            </li>
-            <li class="elements__item">
-              <img
-                class="elements__image"
-                src="images/JamesBondIsland.jpg"
-                alt="Остров Джеймса Бонда"
-              />
-              <h2 class="elements__title">Остров Джеймса Бонда</h2>
-              <button class="elements__btn-like" type="button"></button>
-            </li>
-            <li class="elements__item">
-              <img
-                class="elements__image"
-                src="images/iguazuFalls.jpg"
-                alt="Водопады Игуасу"
-              />
-              <h2 class="elements__title">Водопады Игуасу</h2>
-              <button class="elements__btn-like" type="button"></button>
-            </li>
-            <li class="elements__item">
-              <img
-                class="elements__image"
-                src="images/tianjiMountains.jpg"
-                alt="Горы Тяньцзи"
-              />
-              <h2 class="elements__title">Горы Тяньцзи</h2>
-              <button class="elements__btn-like" type="button"></button>
-            </li>
-            <li class="elements__item">
-              <img
-                class="elements__image"
-                src="images/glacialLakeMoraine.jpg"
-                alt="Ледниковое озеро Морейн"
-              />
-              <h2 class="elements__title">Ледниковое озеро Морейн</h2>
-              <button class="elements__btn-like" type="button"></button>
-            </li>
-            <li class="elements__item">
-              <img
-                class="elements__image"
-                src="images/Trolltunga.jpg"
-                alt="Язык Тролля"
-              />
-              <h2 class="elements__title">Язык Тролля</h2>
-              <button class="elements__btn-like" type="button"></button>
-            </li>
-          </ul>
+          <ul class="elements__list"></ul>
         </section>
       </main>
       <footer class="footer">
         <p class="footer__copyright">&copy; 2021 Mesto</p>
       </footer>
     </div>
-    <div class="popup">
+    <div class="popup" id="editProfile">
       <div class="popup__container">
         <button class="popup__close" type="button"></button>
         <h2 class="popup__title">Редактировать профиль</h2>
@@ -110,6 +55,38 @@
         </form>
       </div>
     </div>
+    <div class="popup" id="newCard">
+      <div class="popup__container">
+        <button class="popup__close" type="button" id="popupClose"></button>
+        <h2 class="popup__title">Новое место</h2>
+        <form class="form" name="form__add-place" method="post">
+          <input
+            class="form__input"
+            type="text"
+            name="place-name"
+            placeholder="Название"
+          />
+          <input
+            class="form__input"
+            type="text"
+            name="place-link"
+            placeholder="Ссылка на картинку"
+          />
+          <button class="form__button-add" type="submit">Создать</button>
+        </form>
+      </div>
+    </div>
+    <template id="elements-template">
+      <li class="elements__item">
+        <figure class="elements__figure">
+          <img class="elements__image" />
+          <figcaption></figcaption>
+        </figure>
+        <h2 class="elements__title"></h2>
+        <button class="elements__btn-like" type="button"></button>
+        <button class="elements__btn-delete" type="button"></button>
+      </li>
+    </template>
     <script src="scripts/index.js"></script>
   </body>
 </html>

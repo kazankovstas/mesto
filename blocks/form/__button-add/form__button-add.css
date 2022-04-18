@@ -1,0 +1,29 @@
+.form__button-add {
+  width: 358px;
+  height: 50px;
+  margin: 48px auto 37px;
+  padding: 0;
+  border-radius: 2px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.21;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+.form__button-add:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 620px) {
+  .form__button-add {
+    width: 238px;
+    height: 46px;
+    margin: 45px auto 25px;
+    font-size: 14px;
+  }
+}
